@@ -1,26 +1,26 @@
-# goit-js-hw-01
+# GoIT JavaScript Homework 03
 
-# GoIT JavaScript Homework 01
-
-Homework for Module 1: "Variables and Data Types".
+Homework for Module 3: "Arrays and Functions".
 
 ## 📂 Task Description
 
-This project contains solutions for three tasks:
+The project contains solutions for three tasks focusing on array manipulation,
+loops, and string methods:
 
-1.  **task-1.js** — `makeTransaction` function to calculate the total cost of
-    ordered droids.
-2.  **task-2.js** — `getShippingMessage` function to calculate the total order
-    cost including shipping.
-3.  **task-3.js** — `getElementWidth` function to calculate the total width of
-    an element (content + padding + border).
+1.  **task-1.js** — `slugify`: Converts a string title into a "slug" (lowercase,
+    hyphen-separated) using `split` and `join`.
+2.  **task-2.js** — `makeArray`: Combines two arrays using `concat` and limits
+    the length of the result using `slice`.
+3.  **task-3.js** — `filterArray`: Filters an array of numbers based on a
+    threshold value using a `for...of` loop and `push`.
 
 ## 🚀 How to Verify
 
 1. Open the GitHub Pages link (or `index.html` locally).
-2. Open Developer Tools (`F12` or `Right Click` -> `Inspect`).
+2. Open Developer Tools
+   (`Ctrl + Shift + J on Windows/Linux or Cmd + Option + J on macOS`).
 3. Go to the **Console** tab.
-4. Verify that the function outputs match the expected results.
+4. Verify that the outputs match the expected results for all tasks.
 
 ## 🛠 Tech Stack
 
